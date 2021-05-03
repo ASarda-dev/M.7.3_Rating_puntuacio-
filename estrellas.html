@@ -13,7 +13,10 @@
 </head>
 
 <body >
-    <div class="container">
+    <div class="container" id="rate">
+        <div class="titulo">
+            La temporada del Barça
+        </div>
         <div class="post">
             <div class="text">Gracias por puntuar!!</div>
             <div class="edit">Editar</div>
@@ -40,8 +43,9 @@
             </form>
         </div>
     </div>
-
-    <script>
+<!-- TODO:Hacer click fuera las estrellas y de vuelva a la normalidad -->
+    <!-- <script>
+        const cont = document.getElementsByClassName(".container");
         const btn = document.querySelector("button");
         const post = document.querySelector(".post");
         const widget = document.querySelector(".star-widget");
@@ -55,11 +59,10 @@
                 post.style.display ="none";
             }
             return false;
-        }
-        
-       
+        } 
 
-    </script>
+    </script> -->
+    <script src="scripts.js"></script>
 </body>
 
 </html>
