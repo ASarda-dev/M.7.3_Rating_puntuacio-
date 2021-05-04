@@ -18,6 +18,6 @@ window.addEventListener("click", function (e) {
 //capturo cualquier click en cualquier sitio "e" es el nombre argument
 if (!document.getElementById("rate").contains(e.target)) {
 //si el click NO está dentro del div, limpiar todo
-
+location.reload();
 }
 });
